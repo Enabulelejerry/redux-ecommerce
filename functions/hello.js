@@ -1,0 +1,12 @@
+
+exports.handler = async function(event,context){
+   const  items = [
+     {id: 1, name: 'john'},
+     {id: 2, name: 'susan'}
+   ]
+    return {
+        statusCode:200,
+        body:'Hello World',
+    }
+
+}
